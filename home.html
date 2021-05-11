@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css2?
+family=Satisfy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Niramit:wght@200&family=Thasadith&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100&family=Josefin+Slab:wght@100&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.border1{
+  height: 45px;
+  width: 90.9%;
+  background-color: black;
+  padding: 20px 20px 10px 120px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.border2{
+  width: 99%;
+  background-color: #2CC185;
+  padding: 65px 20px 10px 20px;
+  position: absolute;
+  top: 75px;
+  right: 0px;
+}
+.heading{
+  font-family: 'Satisfy', cursive;
+  font-size: 35px;
+  letter-spacing: 2px;
+  color: white;
+}
+.default{
+  cursor: default;
+}
+.dropdown{
+  font-family: 'Thasadith', sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: white;
+  padding: 25px 50px;
+  text-decoration: none;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.body-content1{
+  position: absolute;
+  height: 390px;
+  width: 740px;
+  top: 200px;
+  left: 90px;
+  background-color: white;
+}
+.body-content2{
+  position: absolute;
+  height: 128px;
+  width: 510px;
+  top: 200px;
+  left: 850px;
+  background-color: white;
+}
+.body-content01{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 22px;
+  color: grey;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+.body-content02{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  color: grey;
+  position: absolute;
+  left: 85px;
+  top: 55px;
+}
+.body_content_image{
+  position: absolute;
+  left: -24px;
+  top: 100px;
+}
+</style>
+</head>
+<body style="background-color:F4F4F4;">
+<div class="default">
+<div class="border1 heading"><b>ThePrediction.com</div>
+<div class="border2">
+<table style="position:absolute;top:8px;left:100px">
+<tr>
+<th><div class="dropdown"><i class="fa fa-home"> Home
+<div class="dropdown-content">
+ <a href="admin.html">About</a>
+ <a href="admin.html">Contact us</a></th>
+<th><div class="dropdown"><i class="fa fa-user"> Admin
+<div class="dropdown-content">
+ <a href="admin.html">Log in</a></th>
+<th><div class="dropdown"><i class="fa fa-users"> Staffs
+<div class="dropdown-content">
+ <a href="staff.html">Sign in</a></th>
+</tr>
+</table>
+</div>
+<div class="body-content1">
+<div class="body-content01">
+Student marks prediction
+<br>
+<table><tr>
+<ul>
+<th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th>
+<th><li style="color:2CC185;font-size:28px;position:absolute;left:38px;top:43px"></li>
+
+<th>Student mark</th>
+
+<th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th>
+<th><li style="color:2CC185;font-size:28px;position:absolute;left:180px;top:43px"></li>
+
+<th>Prediction</th>
+
+<th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th>
+<th><li style="color:2CC185;font-size:28px;position:absolute;left:302px;top:43px"></li>
+
+<th>Email</th>
+
+</ul>
+</tr></table>
+<div class="body_content_image"><img src="body_content_image.png" height="265px" width="740px">
+</div></div></div>
+<div class="body-content2">
+<i class="fa fa-line-chart" style="color:2CC185;font-size:32px;position:absolute;left:35px;top:50px"></i>
+<div class="body-content02">Line chart for Actual Vs Prediction</div></div>
+<div class="body-content2" style="position:absolute;left:850px;top:330.9px">
+<i class="fa fa-bar-chart" style="color:2CC185;font-size:32px;position:absolute;left:35px;top:50px"></i>
+<div class="body-content02">Bar chart for students CAT marks comparison</div></div>
+<div class="body-content2" style="position:absolute;left:850px;top:462px">
+<i class="fa fa-envelope" style="color:2CC185;font-size:32px;position:absolute;left:35px;top:50px"></i>
+<div class="body-content02">Emailing students marks</div></div>
+</body>
+</html>
